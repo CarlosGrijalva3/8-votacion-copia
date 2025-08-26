@@ -1,0 +1,50 @@
+/*Color*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.academia img {
+  display: block;
+  margin: 0 auto;
+}
+
+.unin{
+  display: flex;             /* activa flexbox */
+  justify-content: center;   /* centra horizontalmente todo el grupo */
+  /*align-items: center;       /* alinea verticalmente los elementos */
+  gap: 120px;                 /* espacio entre cada nombre */
+  margin: 30px 0;
+  font-weight: bold;
+}
+
+.unii {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /*/* espacio de 20px entre cada hijo */
+  flex-wrap: wrap;
+}
+
+
+/*Imagen Universidad*/
+.card img {
+  height: 100px;
+  /*border: 2px solid blue;*/
+  /*border-radius: 10px;*/
+  /*margin-bottom: 10px;*/
+}
+
+/*Boton*/
+.card button{
+  margin-top: 10px; 
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 120px;
+}
