@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registro.css">
+    <title>Registro</title>
+</head>
+
+
+<body>
+    <div class="registro">
+        
+        <div class="reg">
+            <p>Registro</p>
+        </div>
+
+        <form action="php/registroindex.php" method="POST"><!--registro para base de datos-->
+
+            <div class="Correo">
+                <p class="rn">email </p>
+                <label for="correo"></label>
+                <input type="email" name="correo" id="correohtml" required>
+                                    <!--$correo = $_POST['correo']; .php-->
+            </div>
+            <div class="Contraseña">
+                <p class="rn">password</p>
+                <input type="password" name="contrasena" id="contrasenahtml" minlength="6" required>
+                                        <!--$contrasena = $_POST['contrasena']; .php-->
+            </div>
+            <div>
+                <!--button type="button">registro</button-->
+                <button type="submit">registro</button> <!--se cambio a "submit"-->
+            </div>
+
+        </form>
+
+        
+       
+    </div>
+   <script src="js/registro.js"></script>
+</body>
+</html>

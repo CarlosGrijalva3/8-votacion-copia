@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index_color.css">
+  <link rel="stylesheet" href="css/votacionUni_color.css">
   <title>Votaciones</title>
 </head>
 
@@ -12,11 +12,13 @@
 
     <header class="academia">
         <h1>Torneo Academia STEM</h1>
-        <img src="/image/academia stem.png" height="200" alt="academia">
+        <img src="image/academia stem.png" height="200" alt="academia">
         <p>Vota por tu proyecto</p>
     </header>
 
-    <!-- nombres de las universidades -->
+     <div class="unin">Categoria IQT</div>
+    <!--
+    !-- nombres de las universidades --
     <div class="unin">
         <p>itcj</p>
         <p>tec</p>
@@ -24,43 +26,48 @@
         <p>uacj</p>
         <p>uach</p>
     </div>
-
+    -->
     <!-- botones con imagen -->
     <section class="unii">
         
         <div class="card">
-        <img src="/image/itcj.png" alt="itcj">
+        <img src="image/itcj.png" alt="itcj">
         <button id="miBtn1">Votar</button><!--id de referencia en la js-->
+        <p class="unin">itcj</p>
         <p id="conta1">0</p><!--id de referencia en la js-->
         </div>
 
         <div class="card">
-        <img src="/image/tec.png"  alt="tec">
+        <img src="image/tec.png"  alt="tec">
         <button id="miBtn2">Votar</button>
+        <p class="unin">tec</p>
         <p id="conta2">0</p>
         </div>
 
         <div class="card">
-        <img src="/image/urn.png"  alt="urn">
+        <img src="image/urn.png"  alt="urn">
         <button id="miBtn3">Votar</button>
+        <p class="unin">urn</p>
         <p id="conta3">0</p>
         </div>
 
         <div class="card">
-        <img  src="/image/uacj.png"  alt="uacj">
+        <img  src="image/uacj.png"  alt="uacj">
         <button id="miBtn4">Votar</button>
+        <p class="unin">uacj</p>
         <p id="conta4">0</p>
         </div>
 
         <div class="card">
-        <img  src="/image/uach.png"  alt="uach">
+        <img  src="image/uach.png"  alt="uach">
         <button id="miBtn5">Votar</button>
+        <p class="unin">uach</p>
         <p id="conta5">0</p>
         </div>
 
     </section>
 
     <footer></footer>
-    <script src="index.js"></script>
+    <script src="js/votacionUni.js"></script>
 </body>
 </html>
